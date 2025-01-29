@@ -4,7 +4,11 @@
   "license": "MIT",
   "private": true,
   "devDependencies": {
+    "@nestjs/schematics": "^10.0.1",
+    "@nx/angular": "20.4.0",
     "@nx/js": "20.4.0",
+    "@nx/nest": "20.4.0",
+    "@nx/react": "20.4.0",
     "@swc-node/register": "~1.9.1",
     "@swc/core": "~1.5.7",
     "@swc/helpers": "~0.5.11",
@@ -16,5 +20,9 @@
   "workspaces": [
     "packages/*"
   ],
-  "packageManager": "yarn@4.5.1"
+  "packageManager": "yarn@4.5.1",
+  "dependencies": {
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
+  }
 }
